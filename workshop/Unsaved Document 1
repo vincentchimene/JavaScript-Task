@@ -1,0 +1,11 @@
+public class ModalClass{
+    public static int[]Modal(int[] array){
+        int indexCounter; 
+        for (int index = 0; index < array.length; index++){
+            for (int count = 0; count < array.length; count++)
+                if (array[index] == array[count]){
+                       
+                }
+        }
+    }
+}

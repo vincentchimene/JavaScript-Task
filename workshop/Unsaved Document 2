@@ -1,0 +1,17 @@
+/**
+* Write a method with the header: public static void displaySortedNumbers(double num1, double num2, double num3)
+* Displays three numbers in decreasing order. 
+* Write a test program that prompts the user to enter three numbers and invokes this method.
+*/
+public class DescendingOrder{
+    public static void displaySortedNumbers(double num1, double num2, double num3){
+        double largest = num1;
+        if (num2 > num1)
+            largest = num2;
+        if (num3 > num2)
+            largest = num3;
+        
+
+    }   
+    
+}
